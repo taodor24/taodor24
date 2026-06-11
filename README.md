@@ -6,9 +6,10 @@ I focus on the part of applied AI that actually ships: grounding model output in
 real sources, validating it against schemas, and making every answer auditable —
 because in healthcare, "the model probably got it right" isn't good enough.
 
-Background: École 42 (C, Python, Docker, Linux) · BSc in Biomedical Systems
+Background: 
+· BSc in Biomedical Systems
 (biosignals, medical data, FHIR).
-
+· École 42 (C, Python, Docker, Linux) 
 
 🔬 Featured projects
 
