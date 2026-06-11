@@ -39,4 +39,4 @@ Python · FastAPI · LangChain · RAG · Pydantic · Docker · OpenAI API · Ant
 
 📫 Reach me
 
-LinkedIn · linkedin.com/in/fedor-turbin-a3817b299
+LinkedIn · linkedin.com/in/fedor-turbin
