@@ -1,16 +1,42 @@
-## Hi there 👋
+Hi, I'm Fedor 👋
 
-<!--
-**taodor24/taodor24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI/ML Engineer building reliable LLM systems for medical & biotech data.
 
-Here are some ideas to get you started:
+I focus on the part of applied AI that actually ships: grounding model output in
+real sources, validating it against schemas, and making every answer auditable —
+because in healthcare, "the model probably got it right" isn't good enough.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Background: École 42 (C, Python, Docker, Linux) · BSc in Biomedical Systems
+(biosignals, medical data, FHIR).
+
+
+🔬 Featured projects
+
+MedRAG — Grounded RAG API for medical documents
+
+
+Answers clinical questions strictly from a document corpus, with inline source
+citations and enforced refusal when context is insufficient — mitigating
+hallucination in a high-stakes domain.
+FastAPI · LangChain · Qdrant · OpenAI/Anthropic · Docker
+
+
+
+Note2FHIR — Clinical note → FHIR R4 extraction API
+
+
+Extracts conditions, medications, allergies and vitals from free-text clinical
+notes via LLM structured output, validates against a Pydantic schema, and maps
+to FHIR R4 resources with LOINC-coded observations and per-fact evidence spans.
+FastAPI · LangChain · Pydantic · Docker
+
+
+
+
+🛠️ Working with
+
+Python · FastAPI · LangChain · RAG · Pydantic · Docker · OpenAI API · Anthropic API · Qdrant · Git · Linux
+
+📫 Reach me
+
+LinkedIn · linkedin.com/in/fedor-turbin-a3817b299
