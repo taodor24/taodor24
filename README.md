@@ -25,7 +25,7 @@ What does a protein language model actually encode?
 Amino acid frequencies alone hit 0.901 AUC on subcellular localization; ESM-2 hits 0.974.
 Projecting out the composition subspace leaves 0.836 against a 0.548 floor, and the gap
 survives a family-aware split — so the advantage is neither composition nor paralog memory.
-ESM-2 · PyTorch · scikit-learn · UniProt API · paired bootstrap · group-aware CV
+`ESM-2` · `PyTorch` · `scikit-learn` · `UniProt API` · `paired bootstrap` · `group-aware CV`
 
 
 
