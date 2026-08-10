@@ -13,23 +13,16 @@ Background:
 
 🔬 Featured projects
 
-MedRAG — Grounded RAG API for medical documents
+molecular-generalization-gap
+
+Does scaffold splitting actually measure generalization?
+Quantifies how much random train/test splits overstate performance on BBBP and BACE,
+and shows model error tracks continuously with Tanimoto distance to the training set —
+with cluster bootstrap CIs that reveal the gap is directionally consistent but not
+resolvable at benchmark scale.
+RDKit · scikit-learn · Morgan fingerprints · Bemis-Murcko scaffolds · bootstrap CI
 
 
-Answers clinical questions strictly from a document corpus, with inline source
-citations and enforced refusal when context is insufficient — mitigating
-hallucination in a high-stakes domain.
-FastAPI · LangChain · Qdrant · OpenAI/Anthropic · Docker
-
-
-
-Note2FHIR — Clinical note → FHIR R4 extraction API
-
-
-Extracts conditions, medications, allergies and vitals from free-text clinical
-notes via LLM structured output, validates against a Pydantic schema, and maps
-to FHIR R4 resources with LOINC-coded observations and per-fact evidence spans.
-FastAPI · LangChain · Pydantic · Docker
 
 
 
