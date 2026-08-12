@@ -28,6 +28,14 @@ Projecting out the composition subspace leaves 0.836 against a 0.548 floor, and 
 survives a family-aware split — so the advantage is neither composition nor paralog memory.
 `ESM-2` · `PyTorch` · `scikit-learn` · `UniProt API` · `paired bootstrap` · `group-aware CV`
 
+**[calibration-noise-floor](https://github.com/taodor24/calibration-noise-floor)** 
+Most of the miscalibration I measured was a default hyperparameter
+Started as a study of how calibration drifts under a ten-year temporal shift. sklearn's
+default C=1 turned out to swing measured ECE by 5-6x, and a null-ECE check showed what
+remained on the pre-shift test set was indistinguishable from finite-sample noise — so
+recalibration made it worse rather than better.
+`scikit-learn` · `TF-IDF` · `null-ECE simulation` · `bootstrap CI` · `NCBI E-utilities`
+
 
 
 ### Stack
