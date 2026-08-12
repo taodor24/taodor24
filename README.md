@@ -7,7 +7,7 @@ in real sources, validating it against schemas, and quantifying uncertainty
 instead of hiding it — because in healthcare, "the model probably got it
 right" isn't good enough.
 
-**Background** — Biomedical Engineering BSc (240 ECTS — medical devices, biosignal processing, 27 ECTS of mathematics) + École 42 engineering core (C, Python, Docker, Linux). 
+**Background** — Biomedical Engineering BSc (240 ECTS — medical devices, biosignal processing, 27 ECTS of mathematics) + École 42 engineering core (C, C++, Docker, Linux). 
 I can read the biology and write the code — in applied healthcare ML that combination is the bottleneck more often than the modelling is.
 
 
@@ -40,7 +40,7 @@ recalibration made it worse rather than better.
 
 ### Stack
 
-Python · scikit-learn · pandas · NumPy · RDKit · FastAPI · Pydantic · Docker · Git · Linux · C
+Python · scikit-learn · pandas · NumPy · RDKit · FastAPI · Pydantic · Docker · Git · Linux · C · C++
 
 Currently building with: LangChain · RAG · Qdrant · OpenAI & Anthropic APIs
 
