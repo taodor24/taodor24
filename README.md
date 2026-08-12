@@ -36,7 +36,6 @@ remained on the pre-shift test set was indistinguishable from finite-sample nois
 recalibration made it worse rather than better.
 `scikit-learn` · `TF-IDF` · `null-ECE simulation` · `bootstrap CI` · `NCBI E-utilities`
 
-compression-cost-profile 
 **[compression-cost-profile](https://github.com/taodor24/compression-cost-profile)**
 Where does compression cost actually land?
 Measured three inference-cost reductions on ESM-2 protein embeddings. int8 was 0.6-0.7x
