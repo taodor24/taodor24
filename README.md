@@ -36,6 +36,16 @@ remained on the pre-shift test set was indistinguishable from finite-sample nois
 recalibration made it worse rather than better.
 `scikit-learn` · `TF-IDF` · `null-ECE simulation` · `bootstrap CI` · `NCBI E-utilities`
 
+compression-cost-profile 
+**[compression-cost-profile](https://github.com/taodor24/compression-cost-profile)**
+Where does compression cost actually land?
+Measured three inference-cost reductions on ESM-2 protein embeddings. int8 was 0.6-0.7x
+slower than fp32 on Apple silicon while cutting disk 3.9x; PCA never touched throughput
+at all. The accuracy cost concentrates on predictions near the decision boundary — a
+finding that took three metric corrections to state correctly, since the obvious measure
+is confounded by baseline confidence.
+`PyTorch` · `ESM-2` · `dynamic quantization` · `PCA` · `paired bootstrap` · `permutation nulls`
+
 
 
 ### Stack
