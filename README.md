@@ -46,4 +46,4 @@ Currently building with: LangChain · RAG · Qdrant · OpenAI & Anthropic APIs
 
 ---
 France · [LinkedIn](https://linkedin.com/in/fedor-turbin) · 
-Open to AI/ML Engineer roles in France and the EU
+Open to AI/ML Engineer roles.
